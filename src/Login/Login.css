@@ -1,0 +1,28 @@
+.login{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: black;
+}
+.login > img{
+    width: 80%;
+    object-fit: cover;
+}
+.login > a{
+    padding: 20px 30px;
+    background-color: #1db954;
+    border-radius: 20px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+}
+.login > a:hover{
+    cursor: pointer;
+    background-color: #0dae45;
+}
+
+@media screen and (min-width: 567px){
+    .login > img{
+        width: 40%;
+    }
+}

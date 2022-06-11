@@ -1,0 +1,38 @@
+.sidebarOptions{
+    color: grey;
+    height: 40px;
+    cursor: pointer;
+    transition: 200ms color ease-in;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+}
+
+.sidebarOptions > h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+}
+  
+.sidebar > hr{
+    border: 1 px solid #282828;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.sidebarOptions:hover{
+    color: white;
+}
+
+.siderbarOptions__Icons{
+    padding-top: 3px;
+    padding-left: 10px;
+}
+.sidebarOptions > p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif
+}
